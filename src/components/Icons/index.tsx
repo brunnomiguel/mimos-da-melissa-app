@@ -28,7 +28,11 @@ type IconName =
   | "share"
   | "payments"
   | "local-shipping"
-  | "view-cozy";
+  | "view-cozy"
+  | "star"
+  | "grade"
+  | "arrow-downward"
+  | "mail";
 
 interface IconProps {
   name: IconName;

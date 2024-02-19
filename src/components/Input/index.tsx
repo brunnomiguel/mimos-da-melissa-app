@@ -1,14 +1,9 @@
 import { styles } from "@/styles/box-shadow";
 import { colors } from "@/styles/colors";
+
 import { ReactNode } from "react";
 
-import {
-  Platform,
-  StyleSheet,
-  TextInput,
-  TextInputProps,
-  View,
-} from "react-native";
+import { TextInput, TextInputProps, View } from "react-native";
 
 type InputProps = {
   children: ReactNode;
