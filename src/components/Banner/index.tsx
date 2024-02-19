@@ -12,6 +12,7 @@ export function Banner() {
         <Text className="text-white font-heading text-2xl">
           Os melhores mimos para sua princesa
         </Text>
+
         <Pressable
           className="flex-row w-28 h-9 bg-white items-center gap-2 justify-center rounded-md"
           style={styles.boxShadow}
